@@ -114,6 +114,7 @@ body{
 .danpin{
 	width: 1226px;
 	height: 58px;
+	position: relative;
 	/* background-color: #333; */
 
 }
@@ -141,6 +142,18 @@ body{
 	margin-right: 14px;
 	padding-top: 39px;
 	float: left;
+}
+.dp-15{
+	border-top-color: #83c44e;
+}
+.dp-14{
+	border-top-color: #2196f3;
+}
+.dp-13{
+	border-top-color: #e53935;
+}
+.dp-12{
+	border-top-color: #00c0a5;
 }
 .dp-1tupian{
 	width: 160px;
@@ -170,17 +183,9 @@ body{
 }
 .dp-12{
 	margin-right: 0;
-	border-top-color: #00c0a5;
+	
 }
-.dp-13{
-	border-top-color: #e53935;
-}
-.dp-14{
-	border-top-color: #2196f3;
-}
-.dp-15{
-	border-top-color: #83c44e;
-}
+
 
 /* .heheheh{
 	width: 300px;
@@ -255,6 +260,11 @@ body{
 	width: 234px;
 	height: 100%;
 	background-color: #9fc;
+	transition: all .1s linear;
+}
+.jiadian-zuo:hover,.jiadian-product:hover,.jiadian-product:hover{
+	box-shadow: 1px 2px 5px 7px #eee;
+	transform: translateY(-5px);
 }
 .jiadian-you{
 	float: right;
@@ -270,6 +280,14 @@ body{
 	margin-bottom: 14px;
 	overflow: hidden;
 	float: left;
+}
+.jiadian-xia{
+	width: 100%;
+	height: 80px;
+	background-color: orange;
+	position: absolute;
+	left: 0;
+	bottom: -80px;
 }
 .jiadian-tupian{
 	width: 150px;
@@ -327,4 +345,455 @@ body{
 	background-color: #f5f5f5;
 	margin-left: 14px;
 	margin-bottom: 14px;
-	}
+}
+.dp-126{
+	background-color: #fff;
+	border: 0;
+}
+
+
+
+
+
+.banner{
+	width: 1226px;
+	height: 460px;
+	background-color: pink;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative; 
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+}
+.banner-wenzi{
+	width: 234px;
+	height: 440px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 14px;
+	color: #fff;
+	line-height: 42px;
+	padding-top: 20px;
+}
+.banner-left{
+	float: left;
+
+}
+.banner-right{
+	float: right;
+}
+.banner-wenzi li{
+	overflow: hidden;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.banner-wenzi li a{
+	color: #fff;
+}
+.banner-wenzi li:hover{
+	background-color: #ffcc00;
+}
+
+
+.reping{
+	width: 1226px;
+	height: 473px;
+	margin: 0 auto;
+	margin-top: 22px;
+	/* background-color: #000; */
+}
+.reping-bottom{
+	width: 1226px;
+	height: 415px;
+/* 	background-color: #ffa132; */
+	float: left;
+
+}
+.reping-box{
+	width: 296px;
+	height: 415px;
+	background-color: #fff;
+	float: left;
+	margin-left: 14px;
+
+}
+.reping-box123{
+	margin-left: 0;
+}
+.reping-box1{
+	width: 296px;
+	height: 415px;
+	background-color: #fff;
+	float: left;
+	margin-left: 14px;
+}
+.reping-box-tu{
+	width: 296px;
+	height: 220px;
+	background-color: #fff;
+	margin: 0 0 28px;
+}
+.reping-wenzi{
+	width: 240px;
+	height: 72px;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 28px 22px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.reping-wenzi1{
+	position: relative;
+	height: 18px;
+	margin: 0 28px 8px;
+	padding: 0 10px 0 0;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.reping-wenzi2{
+	width: 236px;
+	height: 21px;
+	margin: 0 30px;
+	/* background-color: blue; */
+	float: left;
+}
+.title{
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	margin: 0;
+	float: left;
+}
+.sep{
+	color: #e0e0e0;
+	float: left;
+	margin: 0 10px;
+
+}
+.jiage{
+	color: red;
+	float: left;
+	margin: 0 1px;
+}
+.banner-anniu{
+	display: block;
+	width: 46px;
+	height: 69px;
+/* 	background-color: #4ee; */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-size: 40px;
+	line-height: 69px;
+	text-align: center;
+}
+.banner-anniul{
+	left: 234px;
+}
+.banner-anniur{
+	right: 0;
+}
+.banner-anniu:hover{
+	background-color: #616161;
+}
+.buy{
+	width: 120px;
+	height: 40px;
+	background-color: yellow;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.sousuo{
+	width: 296px;
+	height: 55px;
+	float: right;
+	background-color: pink;
+
+	
+}
+.sousuo input{
+	float: left;
+}
+.waikuang{
+	text-indent: 12px;
+	width: 241px;
+	height: 51px;
+
+}
+.sousuo-button{
+	width: 51px;
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #616161;
+	height: 55px;
+	font-size: 24px;
+
+}
+.reping-title{
+	width: 276px;
+	height: 24px;
+	margin: 45px 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: orange;
+}
+.reping-more{
+    float: left;
+    width: 276px;
+    height: 340px;
+    margin: 0 10px;
+    position: relative;
+}
+.reping-wenzi{
+
+   /*  margin: 0 48px 10px; */
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    color: #b0b0b0;
+}
+.reping-anniu{
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff920f;
+    text-align: center;
+    margin: 0 auto;
+}
+.reping-tupian{
+	display: block;
+    width: 216px;
+    height: 154px;
+    margin: 30px auto 0;
+}
+.reping-dian{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 276px;
+    text-align: center;
+}
+.dian1{
+	font-size: 15px;
+	font-weight: 800;
+	display: inline-block;
+    height: 10px;
+    padding: 10px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.reping-box3{
+	margin-left: 14px;
+}
+.reping-box23{
+    border-top: 1px solid #ff920f;
+}
+.sp-hezi{
+	width: 92px;
+	height: 58px;
+	/* background-color: red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.sp-chakanquanbu{
+	font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+}
+.sp-bottom-box{
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+}
+.sp-bottom-box1{
+	margin-left: 0;
+}
+.sp-tupian{
+	position: relative;
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+}
+.sp-wenzi{
+	margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+.sp-wenzi1{
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.reping123{
+	height: 343px;
+	margin-bottom: 60px;
+}
+.footer{
+	width: 100%;
+	height: 272px;
+}
+.footer .neikuang{
+	width: 1226px;
+	height: 272px;
+	/* background: red; */
+	margin: 0 auto;
+}
+.yejiao-top{
+	width: 100%;
+	height: 25px;
+	padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+    /* background: blue; */
+}
+.yejiao-top li{
+	float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.yejiao-top-zi .yejiao-top-zi1{
+	border-left: 0;
+}
+.yejiao-top-zi .iconfont{
+	margin-right: 6px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.yejiao-top li:hover{
+	color: #ff6700;
+}
+.yejiao-mid{
+	width: 100%;
+	height: 112px;
+	padding: 40px 0;
+	/* background: green; */
+}
+.yejiao-mid-zi{
+	width: 160px;
+	height: 112px;
+	/* background: red; */
+	float: left;
+}
+.yejiao-mid-zi li{
+	margin: 10px 0 0;
+    font-size: 12px;
+    color: #757575;
+}
+.yejiao-mid-zi .help{
+	margin: 0 0 25px;
+    font-size: 14px;
+    color: #424242;
+}
+.yejiao-mid-zi .zhanghu{
+	margin-top: 0;
+}
+.youbian{
+	width: 251px;
+	height: 112px;
+	/* background: blue; */
+	float: right;
+	border-left: 1px solid #e0e0e0;
+	text-align: center;
+    color: #616161;
+    font-size: 12px;
+}
+.youbian .phone{
+	 margin: 0 0 5px;
+    font-size: 22px;
+    color: #ff6700;
+}
+.youbian .wenzi{
+	margin: 0 0 16px;
+}
+.youbian .dianhua{
+	display: block;
+	width: 118px;
+    height: 28px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ff6700;
+    margin: 0 auto;
+    border: 1px solid #ff6700;
+}
+.youbian .dianhua:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.yejiao-buttom{
+	width: 100%;
+	height: 136px;
+	background: #fafafa;
+	padding: 30px 0;
+}
+.yejiao-buttom-nei{
+	width: 1226px;
+	height: 57px;
+	/* background: red; */
+	margin: 0 auto;
+}
+.yejiao-buttom-nei .logo{
+	float: left;
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    background: #ff6700;
+}
+.text{
+	width: 770px;
+	height: 55px;
+	/* background: green; */
+	float: left;
+	font-size: 12px;
+}
+.text a:hover{
+	color: #ff6700;
+}
+.text a{
+	color: #757575;
+}
+.text span{
+	margin: 0 3px;
+}
+.tutu{
+	width: 376px;
+	height: 28px;
+	/* background: yellow; */
+	float: right;
+}
+.tutu1{
+	width: 85px;
+	height: 28px;
+	float: left;
+	margin-left: 7px;
+}
+.slogan{
+	margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+}
